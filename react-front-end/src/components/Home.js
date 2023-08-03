@@ -1,5 +1,4 @@
-// import image from "../images/onward-logo.jpg"
-import image from "../images/web-design.jpg"
+import image from "../images/web-ux-ui.jpg"
 
 const Home = () => {
   return (
@@ -9,12 +8,16 @@ const Home = () => {
         alt="onwards is the way to go"
         className="absolute object-cover w-full h-full object-cover"
       />
-      <section className="relative flex justify-center min-h-screen pt-12 lg:pt-64 px-8">
+      <section className="relative flex justify-center min-h-screen  pt-3 px-3">
         <h1
-          className="text-6xl text-green-100 font-bold cursive leading-none lg:leading-snug"
-          style={{ fontSize: "150px" }}
+          className="text-6xl text-blue-500 font-bold cursive leading-none lg:leading-snug text-center"
+          style={{
+            fontSize: "150px",
+            textShadow: "4px 2px 4px #000000",
+            paddingTop: "160px",
+          }}
         >
-          Onwards is the only way to go!
+          "Onwards together!"
         </h1>
       </section>
     </main>
